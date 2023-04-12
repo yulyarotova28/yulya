@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Curier","Arial",cursive;
+    font-size: 16px;
+    line-height:18px;
+    background:rgb(238, 165, 236);
+    color: #FFFFFF;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    margin: 0px;
+    border: 1px solid rgb(231, 82, 117);   
+    padding-bottom:50px ;
+    padding-left: 20px;
+    padding-top:20px ;
+    padding-right: 20px; 
+}
+
+.days {
+    margin: 0px;
+    display: grid;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-bottom:40px;
+    padding-right: 20px;
+    padding-top:20px ;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.d {
+    list-style-image:url(palm.png) ;
+    border: 2 px solid rgb(231, 82, 117);
+    background-color: #4b0c0c;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    padding-left: 10px;
+    padding-bottom:15px ;
+    padding-top:10px ;
+    background-color: #4b0c0c;
+}
+
+.commentary {
+    display: table;
+    margin: 0 auto;
+    color:rgb(255, 255, 255) ;
+    padding-top: 50px ;
+    padding-bottom: 50px ;  
+}
